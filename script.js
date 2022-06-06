@@ -65,5 +65,12 @@ function loadQuiz() {
 
 submitBtn.addEventListener('click', () => {
     currentQuiz++;
-    loadQuiz();
+
+    if (currentQuiz < quizData.length) {
+        loadQuiz();
+    } else {
+        alert ("You finish! the quiz!");
+    }
+
+    
 })
