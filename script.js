@@ -1,10 +1,10 @@
 const quizData = [
     {
-        question: "What is the most used programming language in 2019?",
-        a: "Java",
-        b: "C",
-        c: "Python",
-        d: "JavaScript",
+        question: "Mau parece un mojon mojado?",
+        a: "Si",
+        b: "Clarines",
+        c: "No",
+        d: "Awebs",
         correct: "d",
     },
     {
